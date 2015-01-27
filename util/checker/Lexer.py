@@ -33,9 +33,9 @@ class Lexer:
      'true' : 'TRUE',
      'false': 'FALSE',
      'abs'  : 'ABS',
-     'area' : 'AREA',
-     'volume':'VOLUME',
   }
+     # 'area' : 'AREA',
+     # 'volume':'VOLUME',
 
   # List of token names.   This is always required
   tokens =[

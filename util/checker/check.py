@@ -118,7 +118,7 @@ def check(file, dict, filedic, rec):
     dict[key]['lno'] = 0
   lno = 0
 
-  sys.stderr.write(file + '\n')
+# sys.stderr.write(file + '\n')
   #################################
   # HEADER
   #################################

@@ -12,13 +12,13 @@
 [[Ex([a,b], And(
   a^2 + b^2 = 4/3,
   S = abs(b) * abs(-a/2 + (3)^(1/2)*b/2 - a))),
-  And(0 <= S, S <= 3^(1/2))],
+  And(0 <= S, S^2 <= 3)],
  [And(And(0 <= Smax, Smax <= 3^(1/2)), All([S], Or(Not(And(0 <= S, S <= 3^(1/2))), S <= Smax))),
-  Smax = 3^(1/2)],
+  And(Smax^2 = 3, Smax > 0)],
  [Ex([Smax], And(
   Smax = 3^(1/2),
   a^2 + b^2 = 4/3,
   Smax = abs(b) * abs(-a/2 + (3)^(1/2)*b/2 - a))),
-  Or(And(a=1/3^(1/2), b=-1),And(a=-1/3^(1/2),b=1))]]:
+  Or(And(3*a^2=1,a>0, b=-1),And(3*a^2=1,a<0,b=1))]]:
 
 

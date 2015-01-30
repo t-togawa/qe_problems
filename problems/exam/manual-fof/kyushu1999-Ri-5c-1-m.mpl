@@ -22,7 +22,7 @@ Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3], And(
   d1 = x*a1 + y*b1 + z*c1,
   d2 = x*a2 + y*b2 + z*c2,
   d3 = x*a3 + y*b3 + z*c3)),
-  And(x=3/2,y=1,z=1/2)],
+  And(2*x=3,y=1,2*z=1)],
 [Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,f1,f2,f3], And(
   a1^2 + a2^2 + a3^2 = 1,
   b1^2 + b2^2 + b3^2 = 1,
@@ -36,5 +36,5 @@ Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3], And(
   f1 = x*a1 + y*b1 + z*c1,
   f2 = x*a2 + y*b2 + z*c2,
   f3 = x*a3 + y*b3 + z*c3)),
-  And(x=1/2,y=1,z=3/2)]]:
+  And(2*x=1,y=1,2*z=3)]]:
 

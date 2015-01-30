@@ -29,6 +29,6 @@
                 L^2>=(x0-x1)^2+(y0-y1)^2
             ))
         ),
-        And(L=(2/3)^(1/2),tantheta=2^(1/2))
+        And(L>0, L^2*3=2, tantheta^2=2, tantheta>0)
     ]
 ]:

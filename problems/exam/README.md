@@ -19,12 +19,12 @@ Examination Problems
 
 # Stats of input formulas
 
-lastupdate: Tue, 20 Jan 2015 10:00:55 +0900 (JST), 02e0d6a
+lastupdate: Fri, 30 Jan 2015 16:24:48 +0900 (JST), 175f8c0
 
 |file| #prob | prenex | abs | ratpoly | ratexp|
 |:--|--:|--:|--:|--:|--:|
-| manual-fof | 67 | 56 | 5 | 7 | 11 |
+| manual-fof | 97 | 81 | 4 | 6 | 10 |
 | manual-lisp | 85 | 17 | 12 | 17 | 34 |
 | semi-auto |  1 | 0 | 0 | 0 | 0 |
 | toy |  2 | 1 | 0 | 2 | 2 |
-|total | 155 | 74 | 17 | 26 | 47 |
+|total | 185 | 99 | 16 | 25 | 46 |

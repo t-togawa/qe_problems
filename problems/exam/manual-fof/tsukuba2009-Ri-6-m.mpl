@@ -5,7 +5,7 @@
 # CITATION : first entrance exam Tsukuba U. 2009, science [6]
 ###################################
 [[#(1)
-Ex([x,y], 
+Ex([x,y],
   And(d >= 0, d^2=((x-a)^2+y^2), x^2-2*y^2 = 2,
   All([x1,y1,d1],Impl(
      And(x1^2-2*y1^2=2,d1^2=((x1-a)^2+y1^2), d1>=0),d1 >= d)))),

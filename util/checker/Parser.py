@@ -14,12 +14,18 @@ class Parser:
   tokens = Lexer.tokens
 
   def punion(self, p, q):
-    return [p[0].union(q[0]), p[1] or q[1], p[2] or q[2]]
+    return [p[0].union(q[0]),      p[1] or q[1], p[2] or q[2]]
   def pdiff(self, p, q):
     return [p[0].difference(q[0]), p[1] or q[1], p[2] or q[2]]
   def psetex(self, p):
+    '''
+    extended fof  (rational exponential, rational functions, abs())
+    '''
     p[2] = True
   def psetq(self, p):
+    '''
+    quantified formula
+    '''
     p[1] = True
   def pdef(self):
     return [set([]), False, False]
@@ -83,7 +89,7 @@ class Parser:
         if self.pisq(q[1]):
           raise SyntaxError("quantifier-free formula is expected",
                 self.lexer, p, p.lineno(1), p.lexpos(1))
-        if self.pisex(q[1]) and False:
+        if self.pisex(q[1]):
           raise SyntaxError("non-extended fof is expected",
                 self.lexer, p, p.lineno(1), p.lexpos(1))
         p[0] = self.pdiff(q[1], q[0])

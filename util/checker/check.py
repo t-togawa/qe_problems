@@ -81,6 +81,8 @@ def check(file, dict, filedic, rec):
       if os.path.isdir(file2):
         if rec:
           ret |= check(file2, dict, filedic, rec)
+      elif f.endswith("-skip.mpl"):
+        continue
       else:
         if f.endswith(".mpl"):
           if bpath == "semi-auto":
@@ -106,6 +108,8 @@ def check(file, dict, filedic, rec):
   if not os.path.isfile(file):
     errmes(file, 0, 1, "file not found")
     return 1
+  if file.endswith("-skip.mpl"):
+    return 0
 
   fbase = os.path.basename(file)
   if fbase in filedic:

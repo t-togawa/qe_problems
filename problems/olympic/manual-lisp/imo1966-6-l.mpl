@@ -1,0 +1,10 @@
+###################################
+# FILE     : imo1966-6-l.mpl
+# LSP-FILE : IMO-1966--Suugaku-6-fol.log
+# CITATION :  International Mathematical Olympiad 1966,  [6]
+# AUTHOR   : Ryoya Fukasaku <ryoya.0323@gmail.com>
+# DOMAIN   : reals
+###################################
+[[# 29
+All([x0,x2],Or(All([x1,x3],Or(All([x4,x5],Or(All([x6,x7],Or(All([x8,x9],Or(And(x0-x8 = 0,x2-x9 = 0),And(x1-x8 = 0,x3-x9 = 0),And(-x0*x3+x1*x2 < 0,-x0*x4+x0*x9+x2*x5-x2*x8+x4*x8-x5*x9 <= 0,-x0*x3+4*x0*x4-4*x0*x9+x1*x2-4*x2*x5+4*x2*x8-4*x4*x8+4*x5*x9 <= 0),And(-x0*x3+x1*x2 < 0,x0*x4-x0*x9-x2*x5+x2*x8-x4*x8+x5*x9 < 0,-x0*x3-4*x0*x4+4*x0*x9+x1*x2+4*x2*x5-4*x2*x8+4*x4*x8-4*x5*x9 <= 0),And(-x0*x3+x1*x2 < 0,-x1*x7+x1*x9+x3*x6-x3*x8-x6*x9+x7*x8 <= 0,-x0*x3+x1*x2+4*x1*x7-4*x1*x9-4*x3*x6+4*x3*x8+4*x6*x9-4*x7*x8 <= 0),And(-x0*x3+x1*x2 < 0,x1*x7-x1*x9-x3*x6+x3*x8+x6*x9-x7*x8 < 0,-x0*x3+x1*x2-4*x1*x7+4*x1*x9+4*x3*x6-4*x3*x8-4*x6*x9+4*x7*x8 <= 0),And(x0*x3-x1*x2 < 0,-x0*x4+x0*x9+x2*x5-x2*x8+x4*x8-x5*x9 <= 0,x0*x3+4*x0*x4-4*x0*x9-x1*x2-4*x2*x5+4*x2*x8-4*x4*x8+4*x5*x9 <= 0),And(x0*x3-x1*x2 < 0,x0*x4-x0*x9-x2*x5+x2*x8-x4*x8+x5*x9 < 0,x0*x3-4*x0*x4+4*x0*x9-x1*x2+4*x2*x5-4*x2*x8+4*x4*x8-4*x5*x9 <= 0),And(x0*x3-x1*x2 < 0,-x1*x7+x1*x9+x3*x6-x3*x8-x6*x9+x7*x8 <= 0,x0*x3-x1*x2+4*x1*x7-4*x1*x9-4*x3*x6+4*x3*x8+4*x6*x9-4*x7*x8 <= 0),And(x0*x3-x1*x2 < 0,x1*x7-x1*x9-x3*x6+x3*x8+x6*x9-x7*x8 < 0,x0*x3-x1*x2-4*x1*x7+4*x1*x9+4*x3*x6-4*x3*x8-4*x6*x9+4*x7*x8 <= 0),x0*x3-x0*x9-x1*x2+x1*x9+x2*x8-x3*x8 <> 0,-x0*x1+x0*x8+x1^2-x1*x8-x2*x3+x2*x9+x3^2-x3*x9 < 0,x0^2-x0*x1-x0*x8+x1*x8+x2^2-x2*x3-x2*x9+x3*x9 < 0)),And(x6 = 0,x7 = 0),And(x1-x6 = 0,x3-x7 = 0),And(-x0*x3+x1*x2 < 0,-x4*x6+x5*x7 <= 0,-x0*x3+x1*x2+4*x4*x6-4*x5*x7 <= 0),And(-x0*x3+x1*x2 < 0,x4*x6-x5*x7 < 0,-x0*x3+x1*x2-4*x4*x6+4*x5*x7 <= 0),And(x0*x3-x1*x2 < 0,-x4*x6+x5*x7 <= 0,x0*x3-x1*x2+4*x4*x6-4*x5*x7 <= 0),And(x0*x3-x1*x2 < 0,x4*x6-x5*x7 < 0,x0*x3-x1*x2-4*x4*x6+4*x5*x7 <= 0),x1*x7-x3*x6 <> 0,x1*x6+x3*x7 < 0,x1^2-x1*x6+x3^2-x3*x7 < 0)),And(x4 = 0,x5 = 0),And(x0-x5 = 0,x2-x4 = 0),x0*x5+x2*x4 < 0,x0*x4-x2*x5 <> 0,x0^2-x0*x5+x2^2-x2*x4 < 0)),x0*x3-x1*x2 = 0)),x0 < 0,x2 <> 0)),true]]:
+

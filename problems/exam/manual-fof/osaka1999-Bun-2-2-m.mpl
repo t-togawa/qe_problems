@@ -7,12 +7,12 @@
 
 [[
 Ex([s,a,b,x,y], And(s<>t,
-t^2/2 = a*t + b,  # P is on l2
-s^2/2 = a*s + b,  # Q is on l2
-y=t*x-t^2/2,      # R is on l1
-y=s*x-s^2/2,      # R is on l3
+t^2 = 2*a*t + 2*b,  # P is on l2
+s^2 = 2*a*s + 2*b,  # Q is on l2
+2*y=2*t*x-t^2,      # R is on l1
+2*y=2*s*x-s^2,      # R is on l3
 a*t = -1,
-(t-x)^2 + (t^2/2 - y)^2 >= (s-t)^2 + (s^2/2-t^2/2)^2)), # PR >= PQ
+4*(t-x)^2 + (t^2 - 2*y)^2 >= 4*(s-t)^2 + (s^2-t^2)^2)), # PR >= PQ
 Or(t <= -2, 2 <= t)]]:
 
 

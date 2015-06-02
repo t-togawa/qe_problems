@@ -1,8 +1,8 @@
 ###################################
-# FILE     : kyoto1999-Bun-4-3.mpl
+# FILE     : kyoto1999-Bun-4-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
-# CITATION : first entrance exam Kyoto U. 1999, humanities [4](3)
+# CITATION : first entrance exam Kyoto U. 1999, humanities [4]
 ###################################
 
 # assume(z4r, 'real'); assume(z4i, 'real'); z4 := z4r + z4i*I;
@@ -22,6 +22,7 @@
 [[ # (2)
 All([z4r,z4i,z3r,z3i,z2r,z2i,z1r,z1i],
   Impl(And(
+    z1r = 0, z1i = 1,
     z1r^2 + z1i^2 = 1, z2r^2 + z2i^2 = 1,
     z3r^2 + z3i^2 = 1, z4r^2 + z4i^2 = 1,
     Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i),
@@ -41,6 +42,7 @@ true],
 [ # (3)
 All([z4r,z4i,z3r,z3i,z2r,z2i,z1r,z1i],
   Impl(And(
+    z1r = 0, z1i = 1,
     z1r^2 + z1i^2 = 1, z2r^2 + z2i^2 = 1, z3r^2 + z3i^2 = 1,
     Or(z1r<>z2r, z1i<>z2i), Or(z1r<>z3r, z1i<>z3i),
     Or(z1r<>z4r, z1i<>z4i), Or(z2r<>z3r, z2i<>z3i),

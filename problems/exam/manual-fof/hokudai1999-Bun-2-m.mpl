@@ -1,8 +1,8 @@
 ###################################
-# FILE     : hokudai1999-Bun-2-3-m.mpl
+# FILE     : hokudai1999-Bun-2-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
-# CITATION : first entrance exam Hokkaido U. 1999, humanities [2](3)
+# CITATION : first entrance exam Hokkaido U. 1999, humanities [2]
 ###################################
 
 [[Ex([a],And(3*S = -1*a^3+a,0 < a,a < 1)),

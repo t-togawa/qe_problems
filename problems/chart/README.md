@@ -1,10 +1,10 @@
 
 # Stats of input formulas
 
-lastupdate: Fri, 06 Feb 2015 06:41:50 +0900 (JST), f2f6813
+lastupdate: Tue, 02 Jun 2015 10:07:11 +0900 (JST), 4567db2
 
-|file| #prob | prenex | abs | ratpoly | ratexp|
+|file| #prob | prenex |
 |:--|--:|--:|--:|--:|--:|
-| manual-fof |  4 | 4 | 0 | 0 | 0 |
-| manual-lisp | 20 | 1 | 0 | 0 | 0 |
-|total | 24 | 5 | 0 | 0 | 0 |
+| manual-fof |  4 | 4 |
+| manual-lisp | 20 | 1 |
+|total | 24 | 5 |

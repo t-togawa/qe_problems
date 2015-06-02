@@ -189,6 +189,9 @@ class Parser:
     elif len(p) == 4:
       # poly op poly
       p[0] = self.punion(p[1], p[3])
+      if self.pisex(p[1]) or self.pisex(p[3]):
+        raise SyntaxError("non-extended fof is expected",
+              self.lexer, p, p.lineno(1), p.lexpos(1))
     else:
       assert False
 
@@ -220,17 +223,23 @@ class Parser:
     #    | VOLUME LPAREN freefml COMMA freefml COMMA listvar RPAREN
     if p[1] == '(' or len(p) == 3:
       p[0] = p[2]
+      if self.pisex(p[2]):
+        self.psetex(p[0])
     elif len(p) == 4:
       # poly op poly
       p[0] = self.punion(p[1], p[3])
       if p[2] == '/':
         self.psetex(p[0])
+      elif self.pisex(p[1]) or self.pisex(p[3]):
+        self.psetex(p[0])
+
     elif len(p) == 5:
       # abs / ln
       p[0] = p[3]
       self.psetex(p[0])
     elif p[1] == 'area' or p[1] == 'volume':
       # area/volume
+      self.psetex(p[0])
       if len(p[3].difference(p[7])) > 0:
         raise SyntaxError("not enough variable",
               self.lexer, p[1], p.lineno(1), p.lexpos(1))
@@ -245,6 +254,7 @@ class Parser:
       p[0] = p[1]
 
 
+  # 冪の型にくるもの.
   def p_rational(self, p):
     '''
     rational : number

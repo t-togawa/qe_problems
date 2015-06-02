@@ -13,26 +13,26 @@
   Ex([ry], And(
     (ry + b)^2 = 3*(rx + a)^2,
     (ry + b) * (rx + a) >= 0,
-	(rx - a)^2 - (ry - b)^2 * 3 = 0,
-	(ry - b) * (rx - a) <= 0
-	)),
+    (rx - a)^2 - (ry - b)^2 * 3 = 0,
+    (ry - b) * (rx - a) <= 0
+    )),
 And(Or(b <= 0,-a-2*rx <= 0),Or(-b <= 0,a+2*rx <= 0),a^2+4*a*rx-3*b^2+4*rx^2 = 0)],
 [
   Ex([rx], And(
     (ry + b)^2 = 3*(rx + a)^2,
     (ry + b) * (rx + a) >= 0,
-	(rx - a)^2 - (ry - b)^2 * 3 = 0,
-	(ry - b) * (rx - a) <= 0
-	)),
+    (rx - a)^2 - (ry - b)^2 * 3 = 0,
+    (ry - b) * (rx - a) <= 0
+    )),
 Or(And(a = 0,b-2*ry = 0),And(a < 0,-b+2*ry <= 0,3*a^2-b^2+4*b*ry-4*ry^2 = 0),
 And(-a < 0,b-2*ry <= 0,3*a^2-b^2+4*b*ry-4*ry^2 = 0))],
 [ Ex([qx,qy,rx,ry], And(
-	(rx-qx)^2 + (ry-qy)^2 = 4,
+    (rx-qx)^2 + (ry-qy)^2 = 4,
     qx = a, qy = -b,
     (ry + b)^2 = 3*(rx + a)^2,
     (ry + b) * (rx + a) >= 0,
-	(rx - a)^2 - (ry - b)^2 * 3 = 0,
-	(ry - b) * (rx - a) <= 0)),
+    (rx - a)^2 - (ry - b)^2 * 3 = 0,
+    (ry - b) * (rx - a) <= 0)),
   3*a^2+3*b^2 = 4],
 [Ex([a,b,Z], And(
   Z^2 = 3, Z > 0,

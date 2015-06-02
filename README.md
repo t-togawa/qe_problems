@@ -6,7 +6,7 @@ QE problems
 # format
 
 - Each file defines a list of lists `[[a1, b1], [a2, b2], ...]:`
-where each `ai` is an (extended) first-order formula and
+where each `ai` is a first-order formula and
 `bi` is a quantifier-free formula which equivalent to `ai`.
 
 ## header
@@ -29,8 +29,6 @@ where each `ai` is an (extended) first-order formula and
 ## functions
 
 ![notation](https://raw.githubusercontent.com/hiwane/qe_problems/master/img/notation.png)
-
-- `abs`
 
 # How to use
 

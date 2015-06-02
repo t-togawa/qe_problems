@@ -2,7 +2,7 @@ optimization problems
 
 # Stats of input formulas
 
-lastupdate: Wed, 17 Dec 2014 17:00:21 +0900 (JST), 7283946
+lastupdate: Tue, 02 Jun 2015 10:01:02 +0900 (JST), 956d70e
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
@@ -13,9 +13,9 @@ lastupdate: Wed, 17 Dec 2014 17:00:21 +0900 (JST), 7283946
 |kinoshita11           | 3| 6| 5|  9| 9| 3| 6|o| | | | 2| 1|46|
 |kinoshita11           | 4| 6| 5|  9| 9| 3| 6|o| | | | 2| 1|32|
 |lampinen00            | 1| 4| 2|  6| 6| 2| 4|o| | | | 2| 1|12|
-|lampinen00            | 2| 5| 2|  6| 6| 2| 4|o|o| |o| 2| 1|14|
+|lampinen00            | 2| 5| 3| 14|12| 5| 9|o| | | | 2| 1|21|
 |lampinen00            | 3| 3| 1| 10| 8| 4| 6|o| | | | 2| 1|13|
-|total                 | 9|43|30| 79|77|20|59|9|1|0|1|20| 9|254|
+|total                 | 9|43|31| 87|83|23|64|9|0|0|0|20| 9|261|
 
 - `file`: file name
 - `idx`: index

@@ -2,20 +2,20 @@ optimization problems
 
 # Stats of input formulas
 
-lastupdate: Tue, 02 Jun 2015 10:01:02 +0900 (JST), 956d70e
+lastupdate: Tue, 02 Jun 2015 10:11:35 +0900 (JST), ec80817
 
-|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|abs|ratpoly|ratexp|qdeg|fdeg|stod|
-|:----|--:|--:|--:|--:|--:|--:|--:|:-:|:-:|:-:|:-:|--:|--:|--:|
-|deb11                 | 1| 3| 2|  7| 7| 1| 6|o| | | | 4| 1|32|
-|fujisawa09            | 1| 4| 3| 10|10| 1| 9|o| | | | 2| 1|26|
-|kinoshita11           | 1| 6| 5| 11|11| 2| 9|o| | | | 2| 1|45|
-|kinoshita11           | 2| 6| 5| 11|11| 2| 9|o| | | | 2| 1|34|
-|kinoshita11           | 3| 6| 5|  9| 9| 3| 6|o| | | | 2| 1|46|
-|kinoshita11           | 4| 6| 5|  9| 9| 3| 6|o| | | | 2| 1|32|
-|lampinen00            | 1| 4| 2|  6| 6| 2| 4|o| | | | 2| 1|12|
-|lampinen00            | 2| 5| 3| 14|12| 5| 9|o| | | | 2| 1|21|
-|lampinen00            | 3| 3| 1| 10| 8| 4| 6|o| | | | 2| 1|13|
-|total                 | 9|43|31| 87|83|23|64|9|0|0|0|20| 9|261|
+|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|stod|
+|:----|--:|--:|--:|--:|--:|--:|--:|:-:|--:|--:|--:|
+|deb11                 | 1| 3| 2|  7| 7| 1| 6|o| 4| 1|32|
+|fujisawa09            | 1| 4| 3| 10|10| 1| 9|o| 2| 1|26|
+|kinoshita11           | 1| 6| 5| 11|11| 2| 9|o| 2| 1|45|
+|kinoshita11           | 2| 6| 5| 11|11| 2| 9|o| 2| 1|34|
+|kinoshita11           | 3| 6| 5|  9| 9| 3| 6|o| 2| 1|46|
+|kinoshita11           | 4| 6| 5|  9| 9| 3| 6|o| 2| 1|32|
+|lampinen00            | 1| 4| 2|  6| 6| 2| 4|o| 2| 1|12|
+|lampinen00            | 2| 5| 3| 14|12| 5| 9|o| 2| 1|21|
+|lampinen00            | 3| 3| 1| 10| 8| 4| 6|o| 2| 1|13|
+|total                 | 9|43|31| 87|83|23|64|9|20| 9|261|
 
 - `file`: file name
 - `idx`: index
@@ -26,9 +26,6 @@ lastupdate: Tue, 02 Jun 2015 10:01:02 +0900 (JST), 956d70e
 - `=,<>`: number of atomic formulas of the form `f=0` or `f<>0`
 - `<,<=`: number of atomic formulas of the form `f<0` or `f<=0`
 - `prenex`: `o` if the formula is prenex normal form
-- `abs`: `o` if the formula contains `abs()`
-- `ratpoly`: `o` if the formula contains rational functions
-- `ratexp`: `o` if the formula contains rational exponents
 - `qdeg`: max degree of quantified variables
 - `fdeg`: max degree of free variables
 - `stod`: sum of total degree

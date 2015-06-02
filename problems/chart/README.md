@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 02 Jun 2015 10:07:11 +0900 (JST), 4567db2
+lastupdate: Tue, 02 Jun 2015 10:11:31 +0900 (JST), ec80817
 
 |file| #prob | prenex |
 |:--|--:|--:|--:|--:|--:|

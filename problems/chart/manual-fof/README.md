@@ -1,7 +1,7 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 02 Jun 2015 10:07:10 +0900 (JST), 4567db2
+lastupdate: Tue, 02 Jun 2015 10:11:29 +0900 (JST), ec80817
 
 |                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|stod|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|--:|--:|--:|
@@ -9,7 +9,7 @@ lastupdate: Tue, 02 Jun 2015 10:07:10 +0900 (JST), 4567db2
 |chart-08CWBE071-m     | 2| 4| 2|  6| 6| 2| 4|o| 1| 1|10|
 |chart-08CY2E172-m     | 1| 3| 2|  3| 3| 2| 1|o| 2| 1|10|
 |chart-08CY2E172-m     | 2| 5| 3|  5| 5| 4| 1|o| 2| 1|18|
-|total                 | 4|16| 9| 19|19|10| 9|4|| 6| 4|48|
+|total                 | 4|16| 9| 19|19|10| 9|4| 6| 4|48|
 
 - `file`: file name
 - `idx`: index

@@ -1,15 +1,14 @@
-
 # Stats of input formulas
 
-lastupdate: Tue, 02 Jun 2015 10:01:04 +0900 (JST), 956d70e
+lastupdate: Tue, 02 Jun 2015 10:22:01 +0900 (JST), ec80817
 
-|file| #prob | prenex | abs | ratpoly | ratexp|
+|file| #prob | prenex |
 |:--|--:|--:|--:|--:|--:|
-| chart |  24  |  5  |  0  |  0  |  0  |
-| exam |  194  |  97  |  0  |  0  |  0  |
-| olympic |  6  |  1  |  0  |  0  |  0  |
-| opt |  9 | 9 | 0 | 0 | 0 |
-| paper | 20 | 20 | 0 | 0 | 0 |
-| qebook | 10 | 10 | 0 | 0 | 0 |
-| toy | 12 | 12 | 0 | 0 | 0 |
-|total | 275 | 154 | 0 | 0 | 0 |
+| chart |  24  |  5  |
+| exam |  194  |  97  |
+| olympic |  6  |  1  |
+| opt |  9 | 9 |
+| paper | 20 | 20 |
+| qebook | 10 | 10 |
+| toy | 12 | 12 |
+|total | 275 | 154 |

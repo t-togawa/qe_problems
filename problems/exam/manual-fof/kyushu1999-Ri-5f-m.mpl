@@ -1,14 +1,14 @@
 ###################################
-# FILE     : kyushu1999-Ri-5c-1.mpl
+# FILE     : kyushu1999-Ri-5c-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
-# CITATION : first entrance exam Hokkaido U. 1999, science [5c](1)
+# CITATION : first entrance exam Hokkaido U. 1999, science [5f]
 ###################################
 # |a|=|b|=|c|=1
 # a.b = b.c = 1/2
 # a.c = 0
 
-[[
+[[ # (1)-d
 Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3], And(
   a1^2 + a2^2 + a3^2 = 1,
   b1^2 + b2^2 + b3^2 = 1,
@@ -23,7 +23,8 @@ Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3], And(
   d2 = x*a2 + y*b2 + z*c2,
   d3 = x*a3 + y*b3 + z*c3)),
   And(2*x=3,y=1,2*z=1)],
-[Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,f1,f2,f3], And(
+[ # (1)-f
+  Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,f1,f2,f3], And(
   a1^2 + a2^2 + a3^2 = 1,
   b1^2 + b2^2 + b3^2 = 1,
   c1^2 + c2^2 + c3^2 = 1,
@@ -36,5 +37,6 @@ Ex([a1,a2,a3,b1,b2,b3,c1,c2,c3,d1,d2,d3], And(
   f1 = x*a1 + y*b1 + z*c1,
   f2 = x*a2 + y*b2 + z*c2,
   f3 = x*a3 + y*b3 + z*c3)),
-  And(2*x=1,y=1,2*z=3)]]:
+  And(2*x=1,y=1,2*z=3)
+]]:
 

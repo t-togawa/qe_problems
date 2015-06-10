@@ -1,13 +1,13 @@
 ###################################
-# FILE     : kyushu1999-Ri-3-2.mpl
+# FILE     : kyushu1999-Ri-3-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
-# CITATION : first entrance exam Kyushu U. 1999, science [3](2)
+# CITATION : first entrance exam Kyushu U. 1999, science [3]
 ###################################
 
 # (1) x*y-x^3 = 2*k
 
-[[
+[[ # (2)
   Ex([x,y], And(x*y-x^3 = 2*k, y=a, k >= 0)),
   k >= 0],
  [And(

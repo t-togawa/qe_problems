@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai2003-Bun-3-l.mpl
+# FILE     : hokkaido2003-Bun-3-l.mpl
 # LSP-FILE : Hokudai-2003-Bun-Zenki-Suugaku-3-fol.log
 # CITATION : first entrance exam Hokkaido U. 2003, humanities [3]
 # AUTHOR   : Hidenao Iwane <iwane@jp.fujitsu.com>

@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai1999-Ri-3-3.mpl
+# FILE     : hokkaido1999-Ri-3-3.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Hokkaido U. 1999, science [3](3)

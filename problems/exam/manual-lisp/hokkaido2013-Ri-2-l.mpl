@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai2013-Ri-2-l.mpl
+# FILE     : hokkaido2013-Ri-2-l.mpl
 # LSP-FILE : Hokudai-2013-Ri-Zenki-Suugaku-2-fol.log
 # CITATION : first entrance exam Hokkaido U. 2013, science [2]
 # AUTHOR   : Hidenao Iwane <iwane@jp.fujitsu.com>

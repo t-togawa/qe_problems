@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai2007-Bun-2-l.mpl
+# FILE     : hokkaido2007-Bun-2-l.mpl
 # LSP-FILE : Hokudai-2007-Bun-Zenki-Suugaku-2-fol.log
 # CITATION : first entrance exam Hokkaido U. 2007, humanities [2]
 # AUTHOR   : Hidenao Iwane <iwane@jp.fujitsu.com>

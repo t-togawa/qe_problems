@@ -1,5 +1,5 @@
 ###################################
-# FILE     : hokudai2010-Ri2-1-m.mpl
+# FILE     : hokkaido2010-Ri2-1-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : second entrance exam Hokkaido U. 2010, science [1]

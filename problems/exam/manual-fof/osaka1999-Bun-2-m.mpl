@@ -1,5 +1,5 @@
 ###################################
-# FILE     : osaka1999-Bun-2.mpl
+# FILE     : osaka1999-Bun-2-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Osaka U. 1999, humanities [2]

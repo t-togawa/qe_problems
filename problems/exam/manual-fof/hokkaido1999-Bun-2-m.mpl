@@ -5,7 +5,7 @@
 # CITATION : first entrance exam Hokkaido U. 1999, humanities [2]
 ###################################
 
-[[ # (2)
+[[ # (3)
 Ex([a],And(3*S = -1*a^3+a,0 < a,a < 1)),
 And(243*S^2 <= 4,-S < 0)
 ], [ # (3)

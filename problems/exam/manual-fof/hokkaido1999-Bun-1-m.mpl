@@ -10,7 +10,7 @@
 # C(x,1)
 # D(x,0)
 
-[[
+[[ # (1)
   Ex([a,b,Z], And(
     Z^2 = 3, Z > 0,
     0<x, x< 2,
@@ -18,7 +18,7 @@
     b^2=x^2+1, # b=CA
     L = a^2 + (2*Z-1)*b^2)),
   And(-x < 0,x < 2,L > 2,-12*x^4+L^2+8*L*x-8*x^2-8*L-32*x+4 = 0)
-], [
+], [ # (2)
   Ex([Lmin], All([x,L], Impl(
       And(0<x,x < 2,      L>2,   -12*x^4+L^2   +8*L*x   -8*x^2-8*L   -32*x+4 = 0),
       And(0<xmin,xmin < 2,Lmin>2,-12*xmin^4+Lmin^2+8*Lmin*xmin-8*xmin^2-8*Lmin-32*xmin+4 = 0, Lmin <= L)))),

@@ -1,9 +1,9 @@
 
 # Stats of input formulas
 
-lastupdate: Tue, 02 Jun 2015 10:11:35 +0900 (JST), ec80817
+lastupdate: Fri, 19 Jun 2015 09:30:14 +0900 (JST), c5f3949
 
-|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|stod|
+|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|sotd|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|--:|--:|--:|
 |imo2013-4-m           | 1| 9| 7|  9| 9| 7| 2|o| 2| 2|137|
 |total                 | 1| 9| 7|  9| 9| 7| 2|1| 2| 2|137|
@@ -19,5 +19,5 @@ lastupdate: Tue, 02 Jun 2015 10:11:35 +0900 (JST), ec80817
 - `prenex`: `o` if the formula is prenex normal form
 - `qdeg`: max degree of quantified variables
 - `fdeg`: max degree of free variables
-- `stod`: sum of total degree
+- `sotd`: sum of total degree
 

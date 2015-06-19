@@ -19,11 +19,11 @@ Examination Problems
 
 # Stats of input formulas
 
-lastupdate: Thu, 18 Jun 2015 05:06:01 +0900 (JST), 39c5270
+lastupdate: Fri, 19 Jun 2015 09:30:14 +0900 (JST), c5f3949
 
 |file| #prob | prenex |
 |:--|--:|--:|--:|--:|--:|
-| manual-fof | 119 | 104 |
-| manual-lisp | 100 | 16 |
-| semi-auto | 16 | 1 |
-|total | 235 | 121 |
+| manual-fof | 120 | 105 |
+| manual-lisp | 111 | 17 |
+| semi-auto | 19 | 4 |
+|total | 250 | 126 |

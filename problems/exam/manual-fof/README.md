@@ -1,9 +1,9 @@
 
 # Stats of input formulas
 
-lastupdate: Thu, 18 Jun 2015 05:05:53 +0900 (JST), 39c5270
+lastupdate: Fri, 19 Jun 2015 09:30:09 +0900 (JST), c5f3949
 
-|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|stod|
+|                  file|idx|#v|#q|atom|poly|=,<>|<,<=|prenex|qdeg|fdeg|sotd|
 |:----|--:|--:|--:|--:|--:|--:|--:|:-:|--:|--:|--:|
 |chiba2005-Bun-3-m     | 1| 2| 1|  2| 2| 2| 0|o| 3| 2|16|
 |chiba2006-Bun-2-m     | 1| 3| 2|  3| 3| 3| 0|o| 2| 2|16|
@@ -89,6 +89,7 @@ lastupdate: Thu, 18 Jun 2015 05:05:53 +0900 (JST), 39c5270
 |tohoku1999-Bun-4-m    | 1| 5| 4|  7| 7| 7| 0|o| 5| 5|80|
 |tohoku1999-Bun-4-m    | 2| 3| 2|  4| 4| 4| 0|o| 5| 1|27|
 |tohoku1999-Ri-2-m     | 1| 4| 1|  6| 6| 5| 1| | 2| 2|47|
+|tohoku1999-Ri-3-m     | 1| 4| 2|  6| 6| 2| 4|o| 2| 1|13|
 |tohoku2003-Bun-1-m    | 1| 2| 1|  2| 2| 0| 2|o| 2| 3|20|
 |tohoku2009-Bun-4-m    | 1| 3| 2|  5| 4| 1| 4|o| 2| 2|13|
 |tohoku2009-Bun2-4-m   | 1| 3| 3|  4| 4| 1| 3|o| 4| 0|40|
@@ -124,7 +125,7 @@ lastupdate: Thu, 18 Jun 2015 05:05:53 +0900 (JST), 39c5270
 |tsukuba2010-Ri-1-m    | 1| 2| 1|  4| 4| 1| 3|o| 3| 1|14|
 |tsukuba2010-Ri-1-m    | 2| 3| 1|  4| 4| 1| 3|o| 3| 1|10|
 |tsukuba2010-Ri-1-m    | 3| 4| 2|  7| 7| 1| 6|o| 3| 1|19|
-|total                 |119|592|415|858|792|502|356|104|270|184|4162|
+|total                 |120|596|417|864|798|504|360|105|272|185|4175|
 
 - `file`: file name
 - `idx`: index
@@ -137,5 +138,5 @@ lastupdate: Thu, 18 Jun 2015 05:05:53 +0900 (JST), 39c5270
 - `prenex`: `o` if the formula is prenex normal form
 - `qdeg`: max degree of quantified variables
 - `fdeg`: max degree of free variables
-- `stod`: sum of total degree
+- `sotd`: sum of total degree
 

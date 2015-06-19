@@ -1,6 +1,5 @@
 ###################################
 # FILE     : kyoto1999-Ri-3-m.mpl
-# GENERATED: 2015-05-29
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Kyoto U. 1999, science [3]

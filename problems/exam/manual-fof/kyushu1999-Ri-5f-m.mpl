@@ -1,5 +1,5 @@
 ###################################
-# FILE     : kyushu1999-Ri-5c-m.mpl
+# FILE     : kyushu1999-Ri-5f-m.mpl
 # AUTHOR   : H. Iwane <iwane@jp.fujitsu.com>
 # DOMAIN   : reals
 # CITATION : first entrance exam Hokkaido U. 1999, science [5f]
